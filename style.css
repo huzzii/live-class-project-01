@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.container{
+    margin: 20px 50px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-container>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.list-item:first-child{
+    font-weight: 800;
+    border-bottom: 3px solid #000;   
+}
+
+div>ul.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button-group{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.search-icon{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 6px;
+    margin-right: 6px;
+}
+
+.nav-button{
+    padding: 5px 45px;
+    font-size: 20px;
+    color: #919191;
+    background: #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+section[aria-label="banner"]{
+    margin-top: 50px;
+}
+
+.hero-container>div>img{
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    width: 325px;
+    height: 400px;
+}
+
+.square img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 330px;
+    left: 160px;
+}
+
+.globe img{
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.star img{
+    position: absolute;
+    top: 170px;
+    right: 100px;
+    width: 60px;
+    height: 60px;
+}
+.star2 img{
+    position: absolute;
+    top: 560px;
+    left: 530px;
+    width: 40px;
+    height: 40px;
+}
+
+.hero-container-right{
+    width: 60%;
+    float: right;
+}
+
+.hero-heading{
+    font-size: 55px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+
+.hero-description{
+    font-size: 13px;
+    color: #8c7979;
+    padding-left: 50px;
+    padding-right: 100px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hero-container-right>div:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.button-email{
+    padding: 7px 22px;
+    background: #fff;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #6c6a6a;
+}
+
+.button-join{
+    padding: 7px 4px;
+    background: #000;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.hero-container-right>div:nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
